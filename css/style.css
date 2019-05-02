@@ -26,6 +26,7 @@ nav {
   margin-bottom: 20px;
 }
 
+
 nav li{
 display: inline-block;
 margin-right: 20px;
@@ -36,14 +37,14 @@ nav a {
   color:lightskyblue;
 }
 
-nav a:hover {
+nav :hover {
   text-decoration: none;
-  color: pink;
+  color: darkblue;
 }
 
 nav a:active {
   text-decoration: none;
-  color:green;
+  color:grey;
 }
 
 nav a:default{
@@ -58,39 +59,54 @@ h2 {
 }
 
 .grid {
-        display: grid;
-        max-width: 960px;
-        margin: 0 auto;
-        grid-template-columns: repeat(2, 1fr);
-        border-right: 5px;
-        border-left: 5px;
+    display: grid;
+    max-width: 850px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    border-right: 5px;
+    border-left: 5px;
       }
 
+section #contacts {
+  background-color: white;
+}
 
-#education {
+section #education{
+  display:grid;
+  grid-template-columns: 1;
+  grid-column: 1 / 2;
+  font-family: "Carter One", sans-serif;
+  color:lightskyblue;
+  background-color: white;
+
+}
+
+section #experience {
+  display: grid;
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
   background-color: white;
 }
 
-#experience {
+section #activities {
+  display:grid;
+  display:column;
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
   background-color: white;
 }
 
-#activities {
+section #honors {
+  display:grid;
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
   background-color: white;
 }
 
-#honors {
-  grid-column: 1 / 2;
-  font-family: "Carter One", sans-serif;
-  color:lightskyblue;
-  background-color: white;
+section #segment #package {
+  display:grid;
+  padding: 10px;
 }
