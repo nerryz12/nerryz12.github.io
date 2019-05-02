@@ -12,7 +12,7 @@ h1 {
 
 body {
   font-family: "Lato",sans-serif;
-  background-color: #eee;
+  background-color: #WhiteSmoke;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -52,7 +52,6 @@ nav :default{
   color:lightskyblue;
 }
 
-
 h2 {
   font-family: "Carter One",sans-serif;
   color:lightskyblue;
@@ -67,33 +66,12 @@ h2 {
     border-left: 5px;
       }
 
-
 section #contacts {
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
 }
 
-section #education{
-  grid-column: 1 / 2;
-  font-family: "Carter One", sans-serif;
-  color:lightskyblue;
-}
-
-section #experience {
-  grid-column: 1 / 2;
-  font-family: "Carter One", sans-serif;
-  color:lightskyblue;
-}
-
-section #activities {
-
-  grid-column: 1 / 2;
-  font-family: "Carter One", sans-serif;
-  color:lightskyblue;
-}
-
-section #honors {
-
+#education #experience #activities #honors{
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
