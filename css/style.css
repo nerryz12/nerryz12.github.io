@@ -42,12 +42,12 @@ nav :hover {
   color: darkblue;
 }
 
-nav a:active {
+nav :active {
   text-decoration: none;
   color:grey;
 }
 
-nav a:default{
+nav :default{
   text-decoration: none;
   color:lightskyblue;
 }
@@ -67,46 +67,42 @@ h2 {
     border-left: 5px;
       }
 
+
 section #contacts {
-  background-color: white;
+  grid-column: 1 / 2;
+  font-family: "Carter One", sans-serif;
 }
 
 section #education{
-  display:grid;
-  grid-template-columns: 1;
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
-  background-color: white;
-
 }
 
 section #experience {
-  display: grid;
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
-  background-color: white;
 }
 
 section #activities {
-  display:grid;
-  display:column;
+
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
-  background-color: white;
 }
 
 section #honors {
-  display:grid;
+
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
-  background-color: white;
 }
 
-section #segment #package {
-  display:grid;
-  padding: 10px;
+section #segment{
+  padding-bottom: 40px;
+}
+
+section #package {
+  padding-bottom: 40px;
 }
