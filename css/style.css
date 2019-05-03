@@ -4,7 +4,7 @@ h1 {
   color:lightskyblue;
   font-family: "Carter One", sans-serif;
   font-weight:bold;
-  max-width: 960px;
+  max-width: 860px;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
@@ -12,7 +12,7 @@ h1 {
 
 body {
   font-family: "Lato",sans-serif;
-  background-color: #Gainsboro;
+  background-color: rgba(245,245,245);
   max-width: 960px;
   margin: 0 auto;
 }
@@ -25,7 +25,6 @@ nav {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 
 nav li{
 display: inline-block;
@@ -40,6 +39,7 @@ nav a {
 nav :hover {
   text-decoration: none;
   color: darkblue;
+  transition: 1s ease-in;
 }
 
 nav :active {
@@ -47,10 +47,6 @@ nav :active {
   color:grey;
 }
 
-nav :default{
-  text-decoration: none;
-  color:lightskyblue;
-}
 
 h2 {
   font-family: "Carter One",sans-serif;
@@ -65,12 +61,6 @@ h2 {
     border-right: 5px;
     border-left: 5px;
       }
-
-section #contacts {
-  grid-column: 1 / 2;
-  font-family: "Carter One", sans-serif;
-}
-
 #education #experience #activities #honors{
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
