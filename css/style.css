@@ -16,8 +16,6 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
-
-
 nav {
   border-style: solid;
   border-color: lightskyblue;
@@ -31,28 +29,27 @@ display: inline-block;
 margin-right: 20px;
 }
 
-nav a {
+a {
   text-decoration: none;
   color:lightskyblue;
 }
 
-nav :hover {
+
+a:hover {
   text-decoration: none;
   color: darkblue;
   transition: 1s ease-in;
 }
 
-nav :active {
+a:active {
   text-decoration: none;
   color:grey;
 }
-
-
 h2 {
   font-family: "Carter One",sans-serif;
   color:lightskyblue;
-}
 
+}
 .grid {
     display: grid;
     max-width: 850px;
@@ -66,11 +63,14 @@ h2 {
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
 }
-
-section #segment{
-  padding-bottom: 40px;
+#segment{
+  padding-bottom: 30px;
+}
+ #package {
+  padding-bottom: 30px;
 }
 
-section #package {
-  padding-bottom: 40px;
+img {
+  border-color:#eee;
+  border-style: solid;
 }
