@@ -28,7 +28,7 @@ main {
 
 body {
   font-family: "Lato",sans-serif;
-  background-color: rgba(240,248,255);
+  background-color: AliceBlue;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -91,6 +91,6 @@ img {
   border-style: solid;
 }
 
-section #about {
-  clear:left;
+#about {
+  grid-column: 2;
 }
