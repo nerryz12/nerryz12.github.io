@@ -82,15 +82,11 @@ h2 {
 #segment{
   padding-bottom: 30px;
 }
- #package {
+#package {
   padding-bottom: 30px;
 }
 
 img {
   border-color:#eee;
   border-style: solid;
-}
-
-#about {
-  grid-column: 2;
 }
