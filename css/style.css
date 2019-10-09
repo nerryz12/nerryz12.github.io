@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Carter+One|Lato:400,900');
 
+
 h1 {
   color:lightskyblue;
   font-family: "Carter One", sans-serif;
@@ -15,6 +16,7 @@ header {
   border-style: solid;
   border-color:lightskyblue;
   border-bottom: 20px;
+
 }
 
 main {
@@ -30,8 +32,7 @@ main {
 body {
   font-family: "Lato",sans-serif;
   background-color: AliceBlue;
-  max-width: 960px;
-  margin: 0 auto;
+
 }
 nav {
   border-style: solid;
@@ -69,8 +70,7 @@ h2 {
 .grid {
     display: grid;
     max-width: 850px;
-    margin: 0 auto;
-    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
     border-right: 5px;
     border-left: 5px;
       }
@@ -78,6 +78,8 @@ h2 {
   grid-column: 1 / 2;
   font-family: "Carter One", sans-serif;
   color:lightskyblue;
+  display:inline;
+
 }
 #segment{
   padding-bottom: 30px;
