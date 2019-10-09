@@ -32,6 +32,8 @@ main {
 body {
   font-family: "Lato",sans-serif;
   background-color: AliceBlue;
+  max-width: 960px;
+  margin: 0 auto;
 
 
 }
@@ -71,9 +73,11 @@ h2 {
 .grid {
     display: grid;
     max-width: 850px;
-    margin: 30px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2,1fr);
     border-right: 5px;
     border-left: 5px;
+
       }
 #education #experience #activities #honors{
   grid-column: 1 / 2;
