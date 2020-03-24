@@ -2,7 +2,7 @@
 
 
 h1 {
-  color:AliceBlue;
+  color:lightgrey;
   font-family: "Carter One", sans-serif;
   font-weight:bold;
   max-width: 860px;
@@ -68,7 +68,7 @@ a:active {
 }
 h2 {
   font-family: "Carter One",sans-serif;
-  color:AliceBlue;
+  color:lightgrey;
 }
 .grid {
     display: grid;
