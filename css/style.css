@@ -22,7 +22,7 @@ header {
 main {
   background-color:white;
   border-style:solid;
-  border-color: lightskyblue;
+  border-color: silver;
   margin:0 auto;
   padding: 10px;
 
@@ -39,7 +39,7 @@ body {
 }
 nav {
   border-style: solid;
-  border-color: lightskyblue;
+  border-color: silver;
   background-color: white;
   font-weight: bold;
   margin-bottom: 20px;
@@ -52,7 +52,7 @@ margin-right: 20px;
 
 a {
   text-decoration: none;
-  color:lightskyblue;
+  color:silver;
 }
 
 
@@ -64,11 +64,11 @@ a:hover {
 
 a:active {
   text-decoration: none;
-  color:grey;
+  color:blue;
 }
 h2 {
   font-family: "Carter One",sans-serif;
-  color:lightgrey;
+  color:silver;
 }
 .grid {
     display: grid;
