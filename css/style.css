@@ -14,7 +14,7 @@ h1 {
 header {
   background-color:white;
   border-style: solid;
-  border-color:lightskyblue;
+  border-color:silver;
   border-bottom: 20px;
 
 }
@@ -68,7 +68,7 @@ a:active {
 }
 h2 {
   font-family: "Carter One",sans-serif;
-  color:silver;
+  color:lightskyblue;
 }
 .grid {
     display: grid;
